@@ -67,7 +67,7 @@
  4. 管理脚本<br>
 
    * 启动:
-    [*start.sh*](https://github.com/honglongwei/pj-memcache/blob/master/start.sh)
+    [*start.sh*](https://github.com/honglongwei/pj-memcache/blob/master/start.sh) <br>
 
    * 停止:
     [*stop.sh*](https://github.com/honglongwei/pj-memcache/blob/master/stop.sh)

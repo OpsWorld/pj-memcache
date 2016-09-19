@@ -61,6 +61,6 @@
    -I            重写每个数据页尺寸。调整数据项最大尺寸。<br>
 
 
- 4. 管理脚本
-   * 启动:[*start.sh*](https://github.com/honglongwei/pj-memcache/blob/master/start.sh) <br>
-   * 停止:[*stop.sh*](https://github.com/honglongwei/pj-memcache/blob/master/stop.sh) <br>
+ 4. 管理脚本<br>
+     * 启动:[*start.sh*](https://github.com/honglongwei/pj-memcache/blob/master/start.sh) <br>
+     * 停止:[*stop.sh*](https://github.com/honglongwei/pj-memcache/blob/master/stop.sh) <br>

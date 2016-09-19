@@ -5,7 +5,6 @@
 * ### liunx安装 <br>
 
  1. 安装libevent <br>
-
    (Memcache用到了libevent这个库用于Socket的处理，所以还需要安装libevent) <br>
    $ wget http://www.monkey.org/~provos/libevent-2.0.8-rc.tar.gz <br>
    $ tar zxvf libevent-2.0.8-rc.tar.gz <br>
@@ -15,7 +14,6 @@
 
 
  2. 安装memcached (多线程支持) <br>
-
    $ wget http://memcached.googlecode.com/files/memcached-1.4.5.tar.gz <br>
    $ tar zxvf memcached-1.4.5.tar.gz <br>
    $ ./configure -with-libevent=/usr/local --enable-threads <br>
@@ -24,7 +22,6 @@
 
 
  3. memcached命令参数详解<br>
-
    -p <num>      监听的TCP端口(默认: 11211)<br>
    -U <num>      监听的UDP端口(默认: 11211, 0表示不监听)<br>
    -s <file>     用于监听的UNIX套接字路径（禁用网络支持）<br>
@@ -64,10 +61,6 @@
    -I            重写每个数据页尺寸。调整数据项最大尺寸。<br>
 
 
- 4. 管理脚本<br>
-
-   * 启动:
-    [*start.sh*](https://github.com/honglongwei/pj-memcache/blob/master/start.sh)
-   <br>
-   * 停止:
-    [*stop.sh*](https://github.com/honglongwei/pj-memcache/blob/master/stop.sh)
+ 4. 管理脚本
+   * 启动:[*start.sh*](https://github.com/honglongwei/pj-memcache/blob/master/start.sh) <br>
+   * 停止:[*stop.sh*](https://github.com/honglongwei/pj-memcache/blob/master/stop.sh) <br>

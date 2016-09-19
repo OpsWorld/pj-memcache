@@ -6,7 +6,7 @@
 
  1. 安装libevent <br>
 
-   #Memcache用到了libevent这个库用于Socket的处理，所以还需要安装libevent <br>
+   (Memcache用到了libevent这个库用于Socket的处理，所以还需要安装libevent) <br>
    $ wget http://www.monkey.org/~provos/libevent-2.0.8-rc.tar.gz <br>
    $ tar zxvf libevent-2.0.8-rc.tar.gz <br>
    $ ./configure -prefix=/usr/local <br>
